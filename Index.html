@@ -1,0 +1,38 @@
+<html>
+    <title>Quiz For Fun</title>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link href="style22.css" rel="stylesheet">
+
+    </head>
+    <body>
+        <div class="container-fluid bg-dark  p-2" id="div1">
+           <h1 id="h11" class="text-white ">Quiz</h1>
+        </div>
+        <div id="div2" class="container-fluid bg-light ">
+            <div class="container">
+                <h2 id="akey" mt-3 >Answer Key</h2>
+            </div>
+            <div class ="container bg-white p-3" id="round">
+                
+                     <form>
+                         <div id="choices"></div>
+                    <div ><button id="correct" class="alert alert-success" style="width: 160px"><strong> Correct </strong></button> </div>
+                    <div ><button id="incorrect" class="alert alert-danger" style="width:160px"><strong> Incorrect </strong></button></div>
+                    <div><button type="button" id="submitbutton" class="btn btn-warning"  onclick="onsuubmit()">submit</button></div>
+                    
+                      <div><button type="button" id="nextbutton" class="btn btn-success" onclick="next()">Next</button></div>
+                </form> 
+                <div><button type="button" id="restart" class="btn btn-success" onclick="restart()">Restart</button></div>
+      
+               </div>
+
+           </div>
+        </div>
+        </div>
+    </body>
+
+    <script src="aOfObject.js"></script>
+</html>

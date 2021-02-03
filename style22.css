@@ -1,0 +1,33 @@
+#h11
+{
+    text-align: center;
+}
+#div1
+{
+    /* background-color: black; */
+    height: 80px;
+}
+#div2
+{
+    /* margin: 50px; */
+  /* margin-bottom: 15px; */
+  position:relative;
+
+  height:87vh;
+}
+
+.radio
+{
+    padding-bottom: 7px;
+}
+#round
+{
+  position: absolute;
+  border-radius: 25px;
+  top:10%;
+  left: 10%;
+}
+#incorrect
+{
+  text-align: center;
+}
